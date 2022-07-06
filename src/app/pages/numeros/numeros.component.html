@@ -1,0 +1,106 @@
+<div class="text-center">
+
+    <h1>ADIVINO EL NÚMERO QUE PIENSAS</h1>
+
+</div>
+
+<div>
+
+    <form (ngSubmit)="adivinarNumero()" [formGroup]="forma">
+        <div class="text-center mt-2">
+            <button type="submit" class="btn btn-primary btn-lg">ADIVINAR</button>
+        </div>
+
+
+        <div class="row mt-3">
+
+            <div class="card-columns">
+
+                <!-- tabla1 -->
+
+                <div class="card">
+
+                    <div class="card-body text-center">
+
+                        <img src="../../../assets/img/numeros/tabla1.jpg" class="card-img-top mb-3">
+                        <div class="form-check mb-2">
+
+                            <input type="checkbox" class="form-check-input" formControlName="numero1">
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- tabla2 -->    
+                <div class="card">
+
+                    <div class="card-body text-center">
+
+                        <img src="../../../assets/img/numeros/tabla2.jpg" class="card-img-top mb-3">
+                        <div class="form-check mb-2">
+
+                            <input type="checkbox" class="form-check-input" formControlName="numero2">
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                   <!-- tabla3 -->    
+                   <div class="card">
+
+                    <div class="card-body text-center">
+
+                        <img src="../../../assets/img/numeros/tabla3.jpg" class="card-img-top mb-3">
+                        <div class="form-check mb-2">
+
+                            <input type="checkbox" class="form-check-input" formControlName="numero3">
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                   <!-- tabla4 -->    
+                   <div class="card">
+
+                    <div class="card-body text-center">
+
+                        <img src="../../../assets/img/numeros/tabla4.jpg" class="card-img-top mb-3">
+                        <div class="form-check mb-2">
+
+                            <input type="checkbox" class="form-check-input" formControlName="numero4" >
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                   <!-- tabla5 -->    
+                   <div class="card">
+
+                    <div class="card-body text-center">
+
+                        <img src="../../../assets/img/numeros/tabla5.jpg" class="card-img-top mb-3">
+                        <div class="form-check mb-2">
+
+                            <input type="checkbox" class="form-check-input" formControlName="numero5" >
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+
+    </form>
+
+</div>
